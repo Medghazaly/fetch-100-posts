@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: tahoma, sans-serif;
+}
+
+.header {
+  margin: 20px 0;
+  text-align: center;
+  color: mediumslateblue;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px 10px;
+  margin-bottom: 50px;
+}
+
+.container .content {
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.container .title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.container .body {
+  opacity: 0.5;
+  line-height: 1.5;
+}
