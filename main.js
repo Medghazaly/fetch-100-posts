@@ -7,6 +7,7 @@ function contents() {
       posts.forEach((post) => {
         let content = document.createElement("div");
         content.classList.add("content");
+        content.id = post.id;
 
         let title = document.createElement("h2");
         title.classList.add("title");
